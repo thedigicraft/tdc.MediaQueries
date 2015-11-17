@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Develop Responsive with CSS - The Digital Craft</title>
+    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Example CSS (not needed for responsive utilities) -->
+    <link rel="stylesheet" href="css/example.css">
+    
+  </head>
+  <body>
+    
+    <div class="container">
+
+ 
+      <header>
+        <h1>Develop Responsive with Bootstrap <small>The Digital Craft</small></h1>
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="breakpoints.html">Media Queries</a></li>
+          <li><a href="grid.html">Grid</a></li>
+          <li><a href="hiding.html">Hiding</a></li>
+          <li><a href="showing.html">Showing</a></li>
+        </ul>        
+      </header>
+
+      <div id="example">
+        <div class="col-lg-12">
+          <span class="pull-right alert alert-info">Viewport Width:<span id="size"></span>px</span>
+          <h2>Examples</h2>
+          <p>Choose an example from the menu above. Use the "viewport size" box to watch for breakpoint sizes.</p>
+        </div>
+      </div>
+
+    </div>
+    
+
+    <!-- jQuery (For the viewport counter) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Viewport Counter -->
+    <script src="js/example.js"></script>  
+  </body>
+</html>
