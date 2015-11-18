@@ -3,39 +3,148 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     
     <title>CSS Media Queries - The Digital Craft</title>
     
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/queries.css">
     
     <!-- Example CSS (not needed for responsive utilities) -->
     <link rel="stylesheet" href="css/example.css">
     
   </head>
   <body>
-    
-    <div class="container">
 
- 
-      <header>
-        <div id="monitor">Viewport Width:<br><span id="size"></span>px</div>  
-        <h1>CSS Media Queries <small>The Digital Craft</small></h1>
-             
-      </header>
+    <header>
+      <div id="monitor">Viewport Width:<br><span id="size"></span>px</div>  
+      <h1>CSS Media Queries <small>The Digital Craft</small></h1>
+    </header>
 
-      <div id="example">
-  
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>                       
+    <div id="example">
 
+      <div>
+        <img src="images/logo.png">
       </div>
+      
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
+      </div>
+      
+      <div>
+        <ul>
+          <li>Item A</li>
+          <li>Item B
+            <ul>
+              <li>Item BA</li>
+              <li>Item BB</li>
+              <li>Item BC</li>
+              <li>Item BD</li>
+            </ul>  
+          </li>
+          <li>Item C</li>
+          <li>Item D</li>
+          <li>Item E</li>
+        </ul>
+      </div>
+      
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+              <th>E</th>
+              <th>F</th>
+              <th>G</th>
+              <th>H</th>
+              <th>I</th>
+              <th>J</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>3</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>8</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>4</td>
+              <td>4</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>7</td>
+              <td>7</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>5</td>
+              <td>5</td>
+              <td>5</td>
+              <td>5</td>
+              <td>6</td>
+              <td>6</td>
+              <td>6</td>
+              <td>6</td>
+              <td>6</td>
+            </tr>
+            <tfoot>
+              <tr>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+              <th>E</th>
+              <th>F</th>
+              <th>G</th>
+              <th>H</th>
+              <th>I</th>
+              <th>J</th>
+              </tr>
+            </tfoot> 
+          </tbody>
+        </table>  
+      </div>                       
 
     </div>
-    
 
     <!-- jQuery (For the viewport counter) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

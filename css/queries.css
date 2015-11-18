@@ -1,2 +1,7 @@
 /* Query CSS - All of our Media Queries */
 
+@media (orientation: landscape ){
+  img{
+    display:none;
+  }
+}

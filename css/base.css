@@ -1,7 +1,9 @@
 /* Base CSS - This is the starting state of the HTML elements */
+
 #example>div {
-  width:200px;
-  height:200px;
+  width:220px;
+  height:220px;
+  padding:20px;
   float:left;
 }
 #example div:nth-child(1){
@@ -15,4 +17,8 @@
 }
 #example div:nth-child(4){
   background:rgba(100,0,50,.1);
+}
+th,td {
+  padding:4px;
+  text-align:center;
 }
